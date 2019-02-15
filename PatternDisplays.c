@@ -28,5 +28,5 @@ int main()
 		printf("\n");
 		count--;
 	}
-
+	return 0;
 }
