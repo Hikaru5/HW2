@@ -15,5 +15,5 @@ int main()
 	printf("Price at which stock was sold: %.2f\n", shares*final);
 	printf("Commission for sale: %.2f\n", shares*final*.02);
 	printf("Profit: %.2f\n", (final-initial)*shares-(final+initial)*shares*.02);
-
+	return 0;
 }
